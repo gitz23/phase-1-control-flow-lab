@@ -1,13 +1,12 @@
 function scuberGreetingForFeet(someValue){
-  // Write your code here!
   let result 
   if (someValue <= 400){
     return 'This one is on me!';
   }else if (someValue > 2000 && someValue < 2500){
-    return 'I will gladly take your thirty bucks.'
+    return 'I will gladly take your thirty bucks.';
   }
   else(someValue > 2500)
-    return 'No can do.'
+    return 'No can do.';
 }
 
 function ternaryCheckCity(cityName){
@@ -15,15 +14,14 @@ function ternaryCheckCity(cityName){
 }
 
 function switchOnCharmFromTip(tipService){
-  // Write your code here!
   switch(tipService){
     case 'generous':
-     return 'Thank you so much.'
+     return 'Thank you so much.';
      
      case 'not as generous':
-      return 'Thank you.'
+      return 'Thank you.';
     
     case 'thanks for everything':
-    return 'Bye.'
+    return 'Bye.';
   }
 }
